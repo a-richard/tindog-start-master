@@ -1,0 +1,204 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+}
+
+p {
+ color: #8f8f8f;
+ font-weight: 500;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #f8f9fa;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 10%;
+  text-align: left;
+}
+
+.title-img {
+  margin-left: 10%;
+  position: absolute;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* Download Buttons */
+
+.intro-btn {
+  margin: 10% 3% 20% 0;
+}
+
+.cta-btn {
+  margin: 3% 1% 0;
+}
+
+/* Media query */
+
+@media (max-width: 991px) {
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    margin: 0;
+  }
+
+  .intro-btn {
+    margin-bottom: 0;
+  }
+
+  .buttons {
+    margin-bottom: 10%;
+  }
+}
+
+/* Features */
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+  transition: 0.3s;
+}
+
+.feature-title {
+  color: #343a40;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing */
+
+#pricing {
+  color: #343a40;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* Footer */
+
+#footer .container-fluid {
+  padding: 7% 10% 0;
+}
+
+#footer a {
+  color: #343a40;
+  font-size: 1.3rem;
+}
+
+#footer a:hover {
+  color: #ff4c68;
+  transition: 0.3s;
+}
+
+.social-icon {
+  margin: 0 0.5% 2%;
+}
