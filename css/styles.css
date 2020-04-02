@@ -202,3 +202,13 @@ p {
 .social-icon {
   margin: 0 0.5% 2%;
 }
+
+/* Attribution */
+
+.attribution {
+  font-size: 0.688rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
